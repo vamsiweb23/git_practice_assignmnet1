@@ -8,9 +8,11 @@ function prime(number)
             factor++
         }
     }
+    return factor
 }
 
-var chek=prime(number)
+
+var chek=prime(43)
 if(check==2)
 {
     console.log("yes it is prime")
