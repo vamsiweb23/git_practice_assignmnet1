@@ -1,23 +1,24 @@
-function prime(num)
+function prime(number)
 {
-    var count=0;
-    for(var i=0; i<=num; i++)
+    var factor=0;
+    for(var i=0; i<=number; i++)
     {
-        if(num%i==0)
+        if(number%i==0)
         {
-            count++
+            factor++
         }
     }
-    return count
+    return factor
 }
 
-var chek=prime(23)
+
+var chek=prime(43)
 if(check==2)
 {
-    console.log("prime")
-
+    console.log("yes it is prime")
 }
 else 
 {
-    console.log("not prime")
+    console.log("it is not a prime")
 }
+
